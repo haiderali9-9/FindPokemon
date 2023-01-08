@@ -27,6 +27,6 @@ function getpokemon(){
     </div>
     `}).catch((err)=>{
      console.log("Empty String");
-     );};
+     });};
 
 
