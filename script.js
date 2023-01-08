@@ -26,6 +26,7 @@ function getpokemon(){
     </ul>
     </div>
     `}).catch((err)=>{
+     document.querySelector('.card').innerHTML = `<h1>Nothing Found</h1>`;
      console.log("Empty String");
      });};
 
