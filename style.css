@@ -50,7 +50,7 @@ width:15%;
 background-color:var(--secondarycolor);
 }
 button:active{
- background:olive;
+ background-color:olive;
 }
 button svg{
 width : 100%;
