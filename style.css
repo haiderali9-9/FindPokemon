@@ -49,6 +49,9 @@ button{
 width:15%;
 background-color:var(--secondarycolor);
 }
+button:active{
+ background-color:red;
+}
 button svg{
 width : 100%;
 height: 100%;
