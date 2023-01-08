@@ -2,6 +2,7 @@
 :root{
  --primarycolor : #fcde67;
  --secondarycolor : #5bccf6;
+ --hovercolor:#5bf685;
  --fontcolor : #030e12;
  --focus-inner-color: hsla(210, 52%, 42%, 1.00);
  --focus-outer-color: hsla(200, 72%, 83%, 0.75);
@@ -49,8 +50,11 @@ button{
 width:15%;
 background-color:var(--secondarycolor);
 }
+button:hover{
+background-color:#5bf685;
+}
 button:active{
- background-color:olive;
+background-color:olive;
 }
 button svg{
 width : 100%;
