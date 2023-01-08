@@ -25,6 +25,8 @@ function getpokemon(){
     <li>Base Experience: ${data.base_experience}</li>
     </ul>
     </div>
-    `});};
+    `}).catch((err)=>{
+     console.log("Empty String");
+     );};
 
 
